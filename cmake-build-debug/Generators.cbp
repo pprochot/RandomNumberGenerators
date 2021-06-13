@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Generators"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pawel/CLionProjects/Generators/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pawel/CLionProjects/Generators/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pawel/CLionProjects/Generators/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Generators">
+				<Option output="/home/pawel/CLionProjects/Generators/cmake-build-debug/Generators" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pawel/CLionProjects/Generators/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 Generators"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Generators/fast">
+				<Option output="/home/pawel/CLionProjects/Generators/cmake-build-debug/Generators" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pawel/CLionProjects/Generators/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 Generators/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pawel/CLionProjects/Generators/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pawel/CLionProjects/Generators/Header Files/BernoulliDistributionGenerator.h">
+			<Option target="Generators"/>
+		</Unit>
+		<Unit filename="/home/pawel/CLionProjects/Generators/Header Files/BinomialDistributionGenerator.h">
+			<Option target="Generators"/>
+		</Unit>
+		<Unit filename="/home/pawel/CLionProjects/Generators/Header Files/ExponentialDistributionGenerator.h">
+			<Option target="Generators"/>
+		</Unit>
+		<Unit filename="/home/pawel/CLionProjects/Generators/Header Files/IContinuousGenerator.h">
+			<Option target="Generators"/>
+		</Unit>
+		<Unit filename="/home/pawel/CLionProjects/Generators/Header Files/IDiscreteGenerator.h">
+			<Option target="Generators"/>
+		</Unit>
+		<Unit filename="/home/pawel/CLionProjects/Generators/Header Files/LinearGenerator.h">
+			<Option target="Generators"/>
+		</Unit>
+		<Unit filename="/home/pawel/CLionProjects/Generators/Header Files/NormalDistributionGenerator.h">
+			<Option target="Generators"/>
+		</Unit>
+		<Unit filename="/home/pawel/CLionProjects/Generators/Header Files/PoissonDistributionGenerator.h">
+			<Option target="Generators"/>
+		</Unit>
+		<Unit filename="/home/pawel/CLionProjects/Generators/Header Files/UniformDistributionGenerator.h">
+			<Option target="Generators"/>
+		</Unit>
+		<Unit filename="/home/pawel/CLionProjects/Generators/Source Files/BernoulliDistributionGenerator.cpp">
+			<Option target="Generators"/>
+		</Unit>
+		<Unit filename="/home/pawel/CLionProjects/Generators/Source Files/BinomialDistributionGenerator.cpp">
+			<Option target="Generators"/>
+		</Unit>
+		<Unit filename="/home/pawel/CLionProjects/Generators/Source Files/ExponentialDistributionGenerator.cpp">
+			<Option target="Generators"/>
+		</Unit>
+		<Unit filename="/home/pawel/CLionProjects/Generators/Source Files/LinearGenerator.cpp">
+			<Option target="Generators"/>
+		</Unit>
+		<Unit filename="/home/pawel/CLionProjects/Generators/Source Files/NormalDistributionGenerator.cpp">
+			<Option target="Generators"/>
+		</Unit>
+		<Unit filename="/home/pawel/CLionProjects/Generators/Source Files/PoissonDistributionGenerator.cpp">
+			<Option target="Generators"/>
+		</Unit>
+		<Unit filename="/home/pawel/CLionProjects/Generators/Source Files/UniformDistributionGenerator.cpp">
+			<Option target="Generators"/>
+		</Unit>
+		<Unit filename="/home/pawel/CLionProjects/Generators/main.cpp">
+			<Option target="Generators"/>
+		</Unit>
+		<Unit filename="/home/pawel/CLionProjects/Generators/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,3 @@
+/home/pawel/CLionProjects/Generators/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pawel/CLionProjects/Generators/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pawel/CLionProjects/Generators/cmake-build-debug/CMakeFiles/Generators.dir

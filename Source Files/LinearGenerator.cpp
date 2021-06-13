@@ -1,8 +1,7 @@
-#include "LinearGenerator.h"
+#include "../Header Files/LinearGenerator.h"
 #include <chrono>
 
-LinearGenerator::LinearGenerator() : m((ullong) std::pow(2, 31) - 1),
-                                     a((ullong) std::pow(7, 5)) {
+LinearGenerator::LinearGenerator(ullong m, ullong a) : m(m), a(a) {
     this->x = initializeSeed();
 }
 
@@ -24,7 +23,14 @@ ullong LinearGenerator::initializeSeed() {
 
     // Random numbers (1991-1995)
     auto preSeed = second + 60 * (minute + 60 * (hour + 24 * (day - 1 + 31 * (month - 1 + 12 * year))));
-    return preSeed | 1; // Set last bite to 1
+    return preSeed | 1; // Set last bit to 1
+}
+
+LinearGenerator LinearGenerator::defaultGenerator() {
+    auto m = (ullong) std::pow(2, 31) - 1;
+    auto a = (ullong) std::pow(7, 5);
+
+    return {m, a};
 }
 
 

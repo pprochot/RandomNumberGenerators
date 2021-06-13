@@ -1,0 +1,74 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pawel/CLionProjects/Generators/Header Files/BernoulliDistributionGenerator.h
+IDiscreteGenerator.h
+/home/pawel/CLionProjects/Generators/Header Files/IDiscreteGenerator.h
+UniformDistributionGenerator.h
+/home/pawel/CLionProjects/Generators/Header Files/UniformDistributionGenerator.h
+
+/home/pawel/CLionProjects/Generators/Header Files/BinomialDistributionGenerator.h
+UniformDistributionGenerator.h
+/home/pawel/CLionProjects/Generators/Header Files/UniformDistributionGenerator.h
+
+/home/pawel/CLionProjects/Generators/Header Files/ExponentialDistributionGenerator.h
+UniformDistributionGenerator.h
+/home/pawel/CLionProjects/Generators/Header Files/UniformDistributionGenerator.h
+
+/home/pawel/CLionProjects/Generators/Header Files/IContinuousGenerator.h
+
+/home/pawel/CLionProjects/Generators/Header Files/IDiscreteGenerator.h
+
+/home/pawel/CLionProjects/Generators/Header Files/LinearGenerator.h
+cmath
+-
+IDiscreteGenerator.h
+/home/pawel/CLionProjects/Generators/Header Files/IDiscreteGenerator.h
+
+/home/pawel/CLionProjects/Generators/Header Files/NormalDistributionGenerator.h
+UniformDistributionGenerator.h
+/home/pawel/CLionProjects/Generators/Header Files/UniformDistributionGenerator.h
+
+/home/pawel/CLionProjects/Generators/Header Files/PoissonDistributionGenerator.h
+UniformDistributionGenerator.h
+/home/pawel/CLionProjects/Generators/Header Files/UniformDistributionGenerator.h
+cmath
+/home/pawel/CLionProjects/Generators/Header Files/cmath
+
+/home/pawel/CLionProjects/Generators/Header Files/UniformDistributionGenerator.h
+LinearGenerator.h
+/home/pawel/CLionProjects/Generators/Header Files/LinearGenerator.h
+IContinuousGenerator.h
+/home/pawel/CLionProjects/Generators/Header Files/IContinuousGenerator.h
+functional
+-
+
+/home/pawel/CLionProjects/Generators/main.cpp
+iostream
+-
+ctime
+-
+Header Files/LinearGenerator.h
+/home/pawel/CLionProjects/Generators/Header Files/LinearGenerator.h
+Header Files/UniformDistributionGenerator.h
+/home/pawel/CLionProjects/Generators/Header Files/UniformDistributionGenerator.h
+iomanip
+-
+locale
+-
+Header Files/NormalDistributionGenerator.h
+/home/pawel/CLionProjects/Generators/Header Files/NormalDistributionGenerator.h
+Header Files/BernoulliDistributionGenerator.h
+/home/pawel/CLionProjects/Generators/Header Files/BernoulliDistributionGenerator.h
+Header Files/BinomialDistributionGenerator.h
+/home/pawel/CLionProjects/Generators/Header Files/BinomialDistributionGenerator.h
+Header Files/PoissonDistributionGenerator.h
+/home/pawel/CLionProjects/Generators/Header Files/PoissonDistributionGenerator.h
+Header Files/ExponentialDistributionGenerator.h
+/home/pawel/CLionProjects/Generators/Header Files/ExponentialDistributionGenerator.h
+
